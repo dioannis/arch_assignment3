@@ -43,5 +43,30 @@
 
 ### **Ερώτηση 2.1**
 
+Χρησιμοποιήσαμε το simseconds από τον φάκελο stats.txt για το κάθε ενα run του προγράμματος. Το EDA το υπολογίσαμε χρησιμοποιώντας την συνάρτηση: 
 
+energy = (leakage + dynamic) * runtime
+    eda = energy * runtime * area
+
+
+Παρακάτω δείχνουμε ενδεικτικά κάποια διαγράμματα που δείχνουν πως επηρεάζεται το EDA με κάθε αλλαγή που κάναμε σε χαρακτηριστικά του προγράμματος:
+
+![image](https://user-images.githubusercontent.com/95228714/150543258-18e14658-6cdd-4eca-b34f-6e739e84470e.png)
+
+![image](https://user-images.githubusercontent.com/95228714/150543751-a512d92e-3a20-49b2-aed0-f12b24897a53.png)
+
+![image](https://user-images.githubusercontent.com/95228714/150543807-8e2724b4-6de2-4d00-9746-11330410c207.png)
+
+![image](https://user-images.githubusercontent.com/95228714/150543897-488c6e4a-7aed-4e0c-93c6-cc931d0e563e.png)
+
+Και εδώ διαγράμματα που δείχνουν πως επηρεάζεται το Peak Power:
+
+![image](https://user-images.githubusercontent.com/95228714/150544185-db2fc2d9-2d8f-4ca9-ae7f-4700c3b5a162.png)
+
+![image](https://user-images.githubusercontent.com/95228714/150544237-f2a03fca-4451-40f2-99b2-7f4450983dac.png)
+
+![image](https://user-images.githubusercontent.com/95228714/150544674-bb012b20-46b7-4274-9a66-d2f061507243.png)
+
+
+![image](https://user-images.githubusercontent.com/95228714/150544422-391d5966-7fae-4be0-b0eb-c011dad71792.png)
 

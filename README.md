@@ -50,6 +50,32 @@ energy = (leakage + dynamic) * runtime
 eda = energy * runtime * area
 
 
+specbzip2:
+
+Το γινόμενο EDA γίνεται ελάχιστο ( 0.090655 ) με τις εξής παραμέτρους:
+L1I_SIZE=32kB L1I_ASSOC=2 L1D_SIZE=64kB L1D_ASSOC=2 L2_SIZE=2MB L2_ASSOC=8 CACHELINE_SIZE=32
+
+specmcf:
+
+Το γινόμενο EDA γίνεται ελάχιστο ( 0.052468 ) με τις εξής παραμέτρους:
+L1I_SIZE=32kB L1I_ASSOC=2 L1D_SIZE=64kB L1D_ASSOC=2 L2_SIZE=2MB L2_ASSOC=8 CACHELINE_SIZE=32
+
+specsjeng:
+
+Το γινόμενο EDA γίνεται ελάχιστο ( 3.319244 ) με τις εξής παραμέτρους:
+L1I_SIZE=32kB L1I_ASSOC=2 L1D_SIZE=64kB L1D_ASSOC=4 L2_SIZE=2MB L2_ASSOC=8 CACHELINE_SIZE=64
+
+spechmmer:
+
+Το γινόμενο EDA γίνεται ελάχιστο ( 0.048082 ) με τις εξής παραμέτρους:
+L1I_SIZE=32kB L1I_ASSOC=2 L1D_SIZE=64kB L1D_ASSOC=2 L2_SIZE=2MB L2_ASSOC=8 CACHELINE_SIZE=32
+
+speclibm:
+
+Το γινόμενο EDA γίνεται ελάχιστο ( 0.402260 ) με τις εξής παραμέτρους:
+L1I_SIZE=32kB L1I_ASSOC=2 L1D_SIZE=64kB L1D_ASSOC=4 L2_SIZE=2MB L2_ASSOC=8 CACHELINE_SIZE=64
+
+
 Παρακάτω δείχνουμε ενδεικτικά κάποια διαγράμματα που δείχνουν πως επηρεάζεται το EDA με κάθε αλλαγή που κάναμε σε χαρακτηριστικά του προγράμματος:
 
 ![image](https://user-images.githubusercontent.com/95228714/150543258-18e14658-6cdd-4eca-b34f-6e739e84470e.png)
